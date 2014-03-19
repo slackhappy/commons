@@ -7,13 +7,14 @@ CACHE=$BASE_DIR/.pants.d/.pip.cache
 
 PY=${PY:-$(which python)}
 
-VENV_VERSION=1.10.1
+VENV_VERSION=1.11.4
 
 BOOTSTRAP_REQS=(
   pystache==0.5.3
   python_daemon==1.5.5
   requests==2.0.0
-  setuptools==2.1.2
+  setuptools==2.2
+  wheel==0.22.0
   psutil==1.1.2
 )
 
